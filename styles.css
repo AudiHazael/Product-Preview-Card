@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,700;1,700&family=Handlee&family=Inconsolata:wght@200&family=Montserrat:wght@500;700&family=Open+Sans&display=swap');
+
+body {
+    background-color: hsl(30, 38%, 92%);
+}
+
+.productContainer {
+    display: flex;
+    justify-content: center;
+    padding-top: 10%;
+    margin-bottom: 1em;
+}
+
+.container {
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    width: 700px;
+    height: 500px;
+}
+
+.image img {
+    width: 350px;
+    height: 500px;
+    border-radius: 10px 0 0 10px;
+    padding: 0;
+    margin: 0;
+}
+
+.text {
+    padding: 1em 3em;
+    text-align: justify;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+h1 {
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+}
+
+p.preview {
+    letter-spacing: 0.7em;
+}
+
+p.price {
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    font-size: 2em;
+    color:  hsl(158, 36%, 37%);
+}
+
+p.price span {
+    color: hsl(212, 21%, 14%);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    margin-left: 1em;
+    text-align: center;
+    text-decoration: line-through;
+}
+
+p {
+    font-size: 14px;
+    line-height: 1.6em;
+}
+
+button{
+    border: none;
+    background-color: hsl(158, 36%, 37%);
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    padding: 1.2em 4em;
+    width: 250px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+button:active{
+    background-color: hsl(161, 36%, 15%);
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+
+
+@media screen {
+    
+}
